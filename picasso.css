@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(145, 184, 247);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(5, 23, 102);
+  text-align: center;
+}
+
+.container {
+  border: dotted rgb(11, 63, 160) 5px;
+  padding: 2px;
+  background-color: rgb(133, 162, 245);
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.square {
+  height: 30vh;
+  background-color: rgb(200, 214, 247);
+  border-radius: 25%;
+  border: solid rgb(34, 82, 172);
+  z-index: 1;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container5 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.container6 {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.circle1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(142, 142, 210);
+  border-radius: 50%;
+  z-index: 2;
+  margin: 6%;
+}
+
+.circle2 {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  background-color: rgb(130, 156, 216);
+  border-radius: 50%;
+  z-index: 2;
+  margin: 6%;
+}
+
+.circle3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(130, 156, 216);
+  border-radius: 50%;
+  z-index: 2;
+  margin: 6%;
+}
+
+form {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+article {
+  border: inset rgb(95, 136, 231) thick;
+  margin: 5%;
+  padding: 1%;
+}
+
+@media (max-width: 480px) {
+  .form {
+    font-size: 25px;
+  }
+}
